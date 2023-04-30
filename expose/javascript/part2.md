@@ -1,4 +1,4 @@
-# Part 2
+# Javascript Part 2
   1. The code will print out `3`, since that is `prices.length` (and the loop stops executing when `i` equals `prices.length`). It prints this because `i` is not block-scoped, so it retains its value at the end of the loop at line 12.
   2. At line 13, the code will print out `150`. This is because the variable `discountedPrice` is a function-scoped variable (as it is defined inside the function), so it can be accessed anywhere within the function definition. Thus, at line 13, it will have the value of what it was for the last iteration in the loop, where `prices[i] = 300`. So, we would print out `300 * (1 - 0.5) = 150`.
   3. The code would print `150`. This is because the variable `discountedPrice` is a function-scoped variable (as it is defined inside the function), so it can be accessed anywhere within the function definition. Thus, at line 14, it will have the value of what it was for the last iteration in the loop. We know from question 2 that `discountedPrice` is `150`. Thus, we would print out `150 * 100 / 100 = 150`.

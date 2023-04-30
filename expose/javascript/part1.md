@@ -1,4 +1,4 @@
-# Part 1
+# Javascript Part 1
   1. Line 9 will print out `values added: 20`
   2. Line 13 will print out `values added: 20`
   3. Line 9 will print out `values added: 20`
